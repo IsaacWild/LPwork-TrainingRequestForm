@@ -14,13 +14,81 @@
 <body>
     <div class="pageContainer">
         <div class="headerContainer">
-            <h1>Welcome to the fake wiki</h1>
+            <p>Welcome to the fake wiki</p>
         </div>
         <div class="formContainer">
             <form action="#" method="get" class="form" id="form">
                 <fieldset>
-                    <p class="Form Title">Training Request Form</p>
-                    
+                    <p class="formTitle">Training Request Form</p>
+                    <div class="csaDetails">
+                        <ul>
+                            <li><label for="csaName">Your Name</label></li>
+                            <li><input type="text" name="name" id="csaName"></li>
+                        </ul>
+                        <ul>
+                            <li><label for="team">Your Team</label></li>
+                            <li>
+                                <select name="team" id="team">
+                                    <optgroup label="ROE">
+                                        <option value="Ina">Ina</option>
+                                        <option value="Saskia">Saskia</option>
+                                        <option value="Ana-Maria">Ana-Maria</option>
+                                        <option value="Angelo">Angelo</option>
+                                        <option value="Kathy">Kathy</option>
+                                    </optgroup>
+                                    <optgroup label="German Voice">
+                                        <option value="German TL1">German TL1</option>
+                                        <option value="German TL2">German TL2</option>
+                                        <option value="German TL3">German TL3</option>
+                                    </optgroup>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><label for="training">Training Wanted</label></li>
+                            <li>
+                                <select name="training" id="training">
+                                    <option value="RMA's">RMA's</option>
+                                    <option value="Shadowing">Shadowing</option>
+                                    <option value="WUV's">WUV's</option>
+                                    <option value="WOF's">WOF's</option>
+                                    <option value="Bonus">Bonus</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><label for="training">Trainer Team</label></li>
+                            <li>
+                                <select name="trainerTeam" id="trainerTeam">
+                                    <optgroup label="ROE">
+                                        <option value="Ina">Ina</option>
+                                        <option value="Saskia">Saskia</option>
+                                        <option value="Ana-Maria">Ana-Maria</option>
+                                        <option value="Angelo">Angelo</option>
+                                        <option value="Kathy">Kathy</option>
+                                    </optgroup>
+                                    <optgroup label="German Voice">
+                                        <option value="German TL1">German TL1</option>
+                                        <option value="German TL2">German TL2</option>
+                                        <option value="German TL3">German TL3</option>
+                                    </optgroup>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><label for="trainerName">Trainer Name</label></li>
+                            <li><input type="text" name="requestedTrainerName" id="requestedTrainerName"></li>
+                        </ul>
+                        <ul>
+                            <li><label for="trainingTime">Training Date & Time</label></li>
+                            <li><input type="datetime-local" name="trainingTime" id="trainingTime"></li>
+                        </ul>
+                        <div class="submitButton">
+                            <input type="submit" value="Submit">
+                        </div>
+                        
+                        
+                    </div>
                 </fieldset>
             </form>
         </div>
