@@ -56,7 +56,13 @@ input[type=submit]:hover{
     justify-content: center;
     font-weight: bold;
     font-size: 40px;
-    background-color: white;
+    background: linear-gradient(0.25turn, #33ad27, #e2a32d, #f0c91c, #2066fd, #e2752d);
+}
+
+.headerText{
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 0.3em;
+    border-radius: 2em;
 }
 
 .formContainer{
@@ -69,6 +75,8 @@ input[type=submit]:hover{
 
 .formTitle{
     text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
 }
 .csaDetails{
     display: grid;
