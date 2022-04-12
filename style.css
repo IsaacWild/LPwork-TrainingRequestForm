@@ -1,3 +1,8 @@
+.pageContainer{
+    display: grid;
+    grid-template-rows: 150px, 1fr;
+}
+
 .headerContainer{
     display: flex;
     justify-content: center;
