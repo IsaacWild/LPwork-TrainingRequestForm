@@ -21,21 +21,21 @@ input[type=text]{
     padding: 0.5em;
     border-radius: 0.5em; 
     font-size: 18px;
-    width: 75%;
+    width: 77%;
     cursor: pointer;
 }
 input[type=datetime-local]{
     padding: 0.5em;
     border-radius: 0.5em; 
     font-size: 18px;
-    width: 75%;
+    width: 77%;
     cursor: pointer;
 }
 input[type=number]{
     padding: 0.5em;
     border-radius: 0.5em; 
     font-size: 18px;
-    width: 75%;
+    width: 77%;
     cursor: pointer;
 }
 input[type=submit]{
