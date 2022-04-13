@@ -99,7 +99,7 @@ select{
 }
 
 .submitButton{
-    grid-area: 4/1/5/-1;
+    grid-area: 5/1/6/-1;
     align-self: center;
     justify-self: center;
     width: 100%;
