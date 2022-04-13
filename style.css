@@ -59,6 +59,7 @@ input[type=submit]:hover{
 .pageContainer{
     display: grid;
     grid-template-rows: 150px, 1fr;
+    background-color: #f5f4f4;
 }
 
 .headerContainer{
@@ -80,7 +81,7 @@ input[type=submit]:hover{
     border: inset 10px yellow;
     margin: 20px;
     box-shadow: 5px 5px 8px rgba(209, 207, 207, 0.651);
-    background-color: rgb(245, 244, 244);
+    background-color: #ffffff;
     font-size: 24px;
 }
 
