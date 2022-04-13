@@ -23,23 +23,29 @@
                     <div class="csaDetails">
                         <ul>
                             <li><label for="csaName">Your Name</label></li>
-                            <li><input type="text" name="name" id="csaName"></li>
+                            <li><input type="text" name="name" id="csaName" placeholder="Your name"></li>
                         </ul>
                         <ul>
                             <li><label for="team">Your Team</label></li>
                             <li>
-                                <select name="team" id="team">
+                                <select name="team" id="team" placeholder="Please pick a team">
                                     <optgroup label="ROE">
-                                        <option value="Ina">Ina</option>
-                                        <option value="Saskia">Saskia</option>
-                                        <option value="Ana-Maria">Ana-Maria</option>
-                                        <option value="Angelo">Angelo</option>
-                                        <option value="Kathy">Kathy</option>
+                                        <option value="Ina">Ina - Swiss Team</option>
+                                        <option value="Saskia">Saskia - Dutch Team</option>
+                                        <option value="Ana-Maria">Ana-Maria - Swiss team</option>
+                                        <option value="Angelo">Angelo - Italian Team</option>
+                                        <option value="Kathy">Kathy - French Team</option>
                                     </optgroup>
                                     <optgroup label="German Voice">
                                         <option value="German TL1">German TL1</option>
                                         <option value="German TL2">German TL2</option>
                                         <option value="German TL3">German TL3</option>
+                                        <option value="German TL4">German TL4</option>
+                                    </optgroup>
+                                    <optgroup label="Non-Voice">
+                                        <option value="Tracy">Tracy</option>
+                                        <option value="Petra Schreier">Petra Schreier</option>
+                                        <option value="Aygul Humphrey">Aygul Humphrey</option>
                                     </optgroup>
                                 </select>
                             </li>
@@ -47,7 +53,7 @@
                         <ul>
                             <li><label for="training">Training Wanted</label></li>
                             <li>
-                                <select name="training" id="training">
+                                <select name="training" id="training" placeholder="Please pick a training">
                                     <option value="RMA's">RMA's</option>
                                     <option value="Shadowing">Shadowing</option>
                                     <option value="WUV's">WUV's</option>
@@ -59,7 +65,7 @@
                         <ul>
                             <li><label for="training">Trainer Team</label></li>
                             <li>
-                                <select name="trainerTeam" id="trainerTeam">
+                                <select name="trainerTeam" id="trainerTeam" placeholder="Please pick a team">
                                     <optgroup label="ROE">
                                         <option value="Ina">Ina - Swiss Team</option>
                                         <option value="Saskia">Saskia - Dutch Team</option>
@@ -83,7 +89,7 @@
                         </ul>
                         <ul>
                             <li><label for="trainerName">Trainer Name</label></li>
-                            <li><input type="text" name="requestedTrainerName" id="requestedTrainerName"></li>
+                            <li><input type="text" name="requestedTrainerName" id="requestedTrainerName" placeholder="CSA name giving the training"></li>
                         </ul>
                         <ul>
                             <li><label for="trainingTime">Training Date & Start Time</label></li>
@@ -91,7 +97,7 @@
                         </ul>
                         <ul>
                             <li><label for="timeNeeded">Time needed (number of hours 0.25 = 15min)</label></li>
-                            <li><input type="number" placeholder="1.25" step="0.25" min="0" max="10" id="timeNeeded" list="defaultNumbers"></li>
+                            <li><input type="number" placeholder="1.25" step="0.25" min="0" max="10" id="timeNeeded" list="defaultNumbers" placeholder="How long the training will be"></li>
                                 <datalist id="defaultNumbers">
                                     <option value="0.25">
                                     <option value="0.5">
