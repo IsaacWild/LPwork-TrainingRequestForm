@@ -37,6 +37,7 @@ input[type=number]{
     font-size: 18px;
     width: 75%;
     cursor: pointer;
+}
 input[type=submit]{
     padding: 0.5em;
     border-radius: 0.5em; 
